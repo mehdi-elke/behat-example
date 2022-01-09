@@ -1,0 +1,23 @@
+{
+    "name": "mehdi/behat-example",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "behat/behat": "^3.0.x-dev",
+        "behat/mink": "1.6.*",
+        "behat/mink-extension":"*",
+        "behat/mink-selenium2-driver":"*",
+        "behat/mink-goutte-driver":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mehdi-elke",
+            "email": "mehdi.elketroussi@baretto.fr"
+        }
+    ]
+}
